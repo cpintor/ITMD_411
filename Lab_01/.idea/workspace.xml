@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cefebf04-d236-431a-83ed-99d55c4ed45e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X8rghYiEOqQkBWMtK2ATXQRsJc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Rainbow Brackets" />
+  </component>
+  <component name="RunManager" selected="Application.AccountHolderTest">
+    <configuration name="AccountHolderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AccountHolderTest" />
+      <module name="Lab_01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lab_01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AccountHolderTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cefebf04-d236-431a-83ed-99d55c4ed45e" name="Default Changelist" comment="" />
+      <created>1580438675251</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580438675251</updated>
+      <workItem from="1580438676633" duration="318000" />
+      <workItem from="1580439017414" duration="38000" />
+      <workItem from="1580876172558" duration="2260000" />
+      <workItem from="1580881257580" duration="1158000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1581040964919">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581040964919" />
+    <state width="1018" height="217" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1580439054643" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1581040964917">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581040964917" />
+    <state width="1018" height="217" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1580439054642" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1581040964915">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581040964915" />
+    <state width="1018" height="217" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1580439054642" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1581040964918">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581040964918" />
+    <state width="1018" height="217" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1580439054643" />
+    <state x="375" y="121" key="SettingsEditor" timestamp="1580881407291">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="375" y="121" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1580881407291" />
+    <state x="362" y="91" key="SettingsEditor/40.23.1400.877@40.23.1400.877" timestamp="1580438995014" />
+    <state x="484" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1580881256995">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="484" y="269" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1580881256995" />
+    <state x="511" y="285" key="com.intellij.ide.util.TipDialog/40.23.1400.877@40.23.1400.877" timestamp="1580876173282" />
+    <state x="35" y="62" key="new project wizard" timestamp="1580438737192">
+      <screen x="40" y="23" width="1400" height="877" />
+    </state>
+    <state x="35" y="62" key="new project wizard/40.23.1400.877@40.23.1400.877" timestamp="1580438737192" />
+  </component>
+</project>
