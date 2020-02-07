@@ -1,3 +1,11 @@
+/*
+* 
+* Author: Cristian Pintor
+* Course: ITMD 411
+* Description: Bank program for depositing and withdrawing money.
+*
+* */
+
 import java.util.Scanner;
 
 public class AccountHolderTest {
