@@ -1,6 +1,6 @@
 public class AccountHolder {
     double balance;
-    double annualInterestRate = .4;
+    double annualInterestRate = .04;
 
     public AccountHolder(double balanceStart) {
         balance=balanceStart;
@@ -22,11 +22,13 @@ public class AccountHolder {
         balance = b;
     }
 
+    public void monthlyInterest(){
+        balance += balance * (annualInterestRate / 12.0);
+        System.out.println(balance);
+    }
+
     public double getBalance(){
         return balance;
     }
 
-    public void monthlyInterest(){
-        balance += balance * (annualInterestRate / 12.0);
-    }
 }
