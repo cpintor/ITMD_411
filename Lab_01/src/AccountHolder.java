@@ -1,21 +1,29 @@
 public class AccountHolder {
     double balance;
-    double annualInterestRate;
+    double annualInterestRate = .4;
 
-    public AccountHolder(double balance) {
-        this.balance=balance;
+    public AccountHolder(double balanceStart) {
+        balance=balanceStart;
     }
 
-    public void deposit(double depositAmount) {
-        balance += depositAmount;
+    public void deposit(double amount) {
+        balance = amount;
     }
 
-    public void withdrawal(double withdrawalAmount) {
-        if (withdrawalAmount > balance) {
+    public void withdrawal(double amount) {
+        if (amount >= 50) {
             System.out.println("Not enough funds.");
         } else {
-            balance -= withdrawalAmount;
+            balance -= amount;
         }
+    }
+
+    public void setBalance(double b){
+        balance = b;
+    }
+
+    public double getBalance(){
+        return balance;
     }
 
     public void monthlyInterest(){

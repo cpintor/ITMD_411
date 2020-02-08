@@ -19,13 +19,28 @@ public class AccountHolderTest {
 
         // Create scanner object
         Scanner input = new Scanner(System.in);
+
         // Asking user for balance input
         System.out.println("Please enter your account balance: ");
-        // Create numerical input
-        double balance = input.nextDouble();
+
+        // Create numerical input for balance
+        double balance_input = input.nextDouble();
+
+        // AccountHolder object from constructor
+        AccountHolder account = new AccountHolder(balance_input);
+
+        account.deposit(balance_input);
 
         // Output
-        System.out.println("Balance: " + balance);
+        System.out.println("Balance: " + balance_input);
+
+        // Withdraw cash
+        System.out.println("How much would you like to withdraw: ");
+        double withdrawal_input = input.nextDouble();
+        account.withdrawal(withdrawal_input);
+        // Output
+        System.out.println("Balance after withdrawal: " + account.getBalance());
+        //System.out.println("Balance after withdrawal: " + account.getBalance());
 
     }
 }
