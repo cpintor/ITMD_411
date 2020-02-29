@@ -1,4 +1,8 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class BanksRecords {
@@ -109,5 +113,55 @@ public class BanksRecords {
 
     public void setPep(String _pep) {
         this.pep = _pep;
+    }
+
+    // read data from spreadsheet
+    public void readData(){
+        BufferedReader br;
+
+        // initialize reader object and set file path to root project
+        br = new BufferedReader(new FileReader(new File("bank-Detail.csv")));
+
+        String line;
+
+        // read each record in csv file
+        while ((line = br.readLine()) != null) {
+            // parse each record in csv file by a comma (,)
+            // into a list stored in the arrayList-> Arrays
+            array.add(Arrays.asList(line.split(",")));
+        }
+        processData(); // call function for processing record data;
+    }
+
+    // process data from arrayList
+    public void processData(){
+        // create index for array while iterating through arrayList of values
+        int idx = 0;
+
+        // and PASS that data into your record objects' setters
+        for (List<String> rowData: array){
+            // initialize array of objects
+            robjs[idx] = new BanksRecords();
+            // call setters below and populate them, item by item
+            robjs[idx].setId(rowData.get(0)); // get 1st column
+            robjs[idx].setAge(Integer.parseInt(rowData.get(1))); // get 2nd column
+
+            /* continue processing arraylist item values into each array
+            object-> robjs[] by index */
+
+            idx++;
+        }
+        printData(); // call function to print objects held in memory
+    }
+
+    // print data from array
+    public void printData(){
+        //1. Set appropriate headings for displaying first 25 records
+
+        //2. Create for loop and print each record objects instance data
+
+        //3. Within for loop use appropriate formatting techniques to print
+        //   out record detail
+
     }
 }
