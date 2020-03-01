@@ -1,11 +1,9 @@
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class BanksRecords {
+public class BanksRecords extends Client{
     // setup static objects for IO processing
 
     // array of BankRecords objects
@@ -116,15 +114,25 @@ public class BanksRecords {
     }
 
     // read data from spreadsheet
-    public void readData(){
+    public void readData() {
         BufferedReader br;
 
         // initialize reader object and set file path to root project
-        br = new BufferedReader(new FileReader(new File("bank-Detail.csv")));
+        try {
+            br = new BufferedReader(new FileReader(new File("bank-Detail.csv")));
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 
         String line;
 
         // read each record in csv file
+        try{
+
+        } catch () {
+
+        }
         while ((line = br.readLine()) != null) {
             // parse each record in csv file by a comma (,)
             // into a list stored in the arrayList-> Arrays

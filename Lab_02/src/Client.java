@@ -3,5 +3,5 @@ public abstract class Client {
 
     public abstract void processData();
 
-    public abstract  void printData();
+    public abstract  void printData(int rows);
 }
