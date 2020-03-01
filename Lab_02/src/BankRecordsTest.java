@@ -15,6 +15,7 @@ public class BankRecordsTest {
         Date date = new Date();
         System.out.println("Current date = " + dateFormat.format(date));
         System.out.println("Programmed by Cristian Pintor");
+        System.out.println("");
 
         System.out.println("ID\t\tAGE\tSEX\t\tREGION\tINCOME\tMORTGAGE");
         BankRecords bankRecords = new BankRecords(); // Creating object for records.
